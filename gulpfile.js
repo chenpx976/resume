@@ -1,11 +1,22 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
+var browserSync = require('browser-sync').create();
 
 var path = require('path');
 var gls = require('gulp-live-server');
 
-var server = gls.static('dist', 8000);
-
+gulp.task('brs', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./dist"
+        }
+    });
+    gulp.watch(['./src/**/*.jade', './resume.json', './i18n/**/*.js'],
+             ['jade']);
+    gulp.watch('./static/**/*', ['static']);
+    gulp.watch('./src/**/*.less', ['less-debug']);
+    gulp.watch('./dist/**/*').on('change', browserSync.reload);
+});
 /**************** Utility **********************/
 function highlight(str) {
   return str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')

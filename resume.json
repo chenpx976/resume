@@ -1,110 +1,110 @@
 {
-  "data_lang": "zh-CN",
-  "ga_id": "UA-63818301-2",
-  "resume_title": "陈盼鑫 - 个人简历",
-  "name": "陈盼鑫",
-  "repo": "https://github.com/chenpx976/resume.git",
-  "job_description": ["前端工程师"],
-  "contact": {
-    "phone": "18844107941",
-    "email": "chenpx976@gmail.com",
-    "github": {
-      "id": "chenpx976"
+    "data_lang": "zh-CN",
+    "ga_id": "UA-63818301-2",
+    "resume_title": "陈盼鑫 - 个人简历",
+    "name": "陈盼鑫",
+    "repo": "https://github.com/chenpx976/resume.git",
+    "job_description": ["前端工程师"],
+    "contact": {
+        "phone": "18310328996",
+        "email": "chenpx976@gmail.com",
+        "github": {
+            "id": "chenpx976"
+        },
+        "blog": {
+            "url": "http://chenpx976.com"
+        }
     },
-    "blog": {
-      "url": "http://chenpx976.com"
-    }
-  },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/chenpx976/resume"
+    "links": [{
+        "type": "repo",
+        "url": "https://github.com/chenpx976/resume"
 
-  }, {
-    "type": "pdf",
-    "url": "static/chenpx976.pdf"
+    }, {
+        "type": "pdf",
+        "url": "static/chenpx976.pdf"
 
-  }],
-  "education": [{
-    "type": "undergraduate",
-    "name": "东北师范大学",
-    "major": "数学与应用数学",
-    "start": "2012",
-    "end": "2016",
-    "honor": []
-  }],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "CET-4",
-      "full": "750",
-      "score": "450"
     }],
-    "description": [
-      "能流畅阅读英文专业书籍、文档及其他资料",
-      "可无字幕观看 MOOC 课程、开发者大会视频",
-      "能够在英文邮件列表、Stack Overflow 等社区正常交流"
-    ]
-  }],
-  "experience": [{
-    "type": "internship",
-    "techtype": "frontend",
-    "place": "蚂蚁金服-体验技术部",
-    "start": "2015.07",
-    "end": "2015.09",
-    "name": "前端开发",
-    "description": [
-      "负责内部某基于`Nodejs`代码检测系统的前端页面以及后台业务逻辑的编写,前台使用`underscore`模板结合`jquery`展现 数据并实现动态效果。",
-      "参与2次业务迭代,能快速熟悉代码并完成业务需求,熟练使用`Git`进行版本管理"
-    ],
-    "stack": ["Nodejs", "underscore", "jquery", "Git"]
-  }, {
-    "type": "project",
-    "techtype": "frontend",
-    "project_type": "personal",
-    "name": "东师某学部网站",
-    "source": "https://github.com/chenpx976/marxism",
-    "demo": "http://marxtest.nenu.edu.cn/",
-    "description": [
-      "前台使用`jquery`实现轮播图、tab切换以及表单验证等效果,后台基于`Bootstrap`和`jquery`构建基本管理界面。",
-      "功能上使用`PHP`框架`Laravel`实现一套有分类管理,导航管理,文章管理,附件管理的后台管理系统。"
-    ],
-    "stack": ["jquery", "Bootstrap", "Laravel"]
-  }],
-  "skills": [{
-    "type": "frontend",
-    "item": [{
-      "summary": "基础",
-      "description": [
-        "能够编写语义化的`HTML`,模块化的`CSS`,实现较复杂的布局,熟悉`ECMAScript`,了解`ECMAScript`新标准",
-        "熟悉`jquery`的使用,能实现基本网页动态效果,阅读过部分源代码,学习使用过`React`"
-      ]
+    "education": [{
+        "type": "undergraduate",
+        "name": "东北师范大学",
+        "major": "数学与应用数学",
+        "start": "2012",
+        "end": "2016",
+        "honor": []
+    }],
+    "language": [{
+        "type": "english",
+        "certificate": [{
+            "type": "CET-4",
+            "full": "750",
+            "score": "450"
+        }],
+        "description": [
+            "能流畅阅读英文专业书籍、文档及其他资料",
+            "可无字幕观看 MOOC 课程、开发者大会视频",
+            "能够在英文邮件列表、Stack Overflow 等社区正常交流"
+        ]
+    }],
+    "experience": [{
+        "type": "internship",
+        "techtype": "frontend",
+        "place": "蚂蚁金服-体验技术部",
+        "start": "2015.07",
+        "end": "2015.09",
+        "name": "前端开发",
+        "description": [
+            "负责内部某基于`Nodejs`代码检测系统的前端页面以及后台业务逻辑的编写,前台使用`underscore`模板结合`jquery`展现 数据并实现动态效果。",
+            "参与2次业务迭代,能快速熟悉代码并完成业务需求,熟练使用`Git`进行版本管理"
+        ],
+        "stack": ["Nodejs", "underscore", "jquery", "Git"]
     }, {
-      "summary": "项目",
-      "description": [
-        "掌握基本的前端兼容性处理、性能优化",
-        "日常使用Git进行版本管理"
-      ]
-    }]
-  }, {
-    "type": "backend",
-    "item": [{
-      "summary": "`Node.js`",
-      "description": [
-        "了解`Nodejs`基本api的使用,能够使用`Express`或`Koa` 搭建简单的后端程序,模拟登录和简单爬虫",
-        "能够使用`Grunt`/`gulp`的api实现简单的自动化流程工具"
-      ]
+        "type": "project",
+        "techtype": "frontend",
+        "project_type": "personal",
+        "name": "东师某学部网站",
+        "source": "https://github.com/chenpx976/marxism",
+        "demo": "http://marxtest.nenu.edu.cn/",
+        "description": [
+            "前台使用`jquery`实现轮播图、tab切换以及表单验证等效果,后台基于`Bootstrap`和`jquery`构建基本管理界面。",
+            "功能上使用`PHP`框架`Laravel`实现一套有分类管理,导航管理,文章管理,附件管理的后台管理系统。"
+        ],
+        "stack": ["jquery", "Bootstrap", "Laravel"]
+    }],
+    "skills": [{
+        "type": "frontend",
+        "item": [{
+            "summary": "基础",
+            "description": [
+                "能够编写语义化的`HTML`,模块化的`CSS`,实现较复杂的布局,熟悉`ECMAScript`,了解`ECMAScript`新标准",
+                "熟悉`jquery`的使用,能实现基本网页动态效果,阅读过部分源代码,学习使用过`React`"
+            ]
+        }, {
+            "summary": "项目",
+            "description": [
+                "掌握基本的前端兼容性处理、性能优化",
+                "日常使用Git进行版本管理"
+            ]
+        }]
     }, {
-      "summary": "其他",
-      "description": [
-        "熟悉`Linux`系统的基本操作以及`LAMP`环境的搭建",
-        "熟悉`PHP`/`HTTP`/`Mysql`基础知识,能熟练使用`Laravel`框架构建复杂的Web网站"
-      ]
+        "type": "backend",
+        "item": [{
+            "summary": "`Node.js`",
+            "description": [
+                "了解`Nodejs`基本api的使用,能够使用`Express`或`Koa` 搭建简单的后端程序,模拟登录和简单爬虫",
+                "能够使用`Grunt`/`gulp`的api实现简单的自动化流程工具"
+            ]
+        }, {
+            "summary": "其他",
+            "description": [
+                "熟悉`Linux`系统的基本操作以及`LAMP`环境的搭建",
+                "熟悉`PHP`/`HTTP`/`Mysql`基础知识,能熟练使用`Laravel`框架构建复杂的Web网站"
+            ]
+        }]
+    }, {
+        "type": "miscellaneous",
+        "item": [
+            "日常使用`Sublime Text`/`Chrome` 进行开发",
+            "能够流畅阅读英文文档,热爱学习新技术"
+        ]
     }]
-  }, {
-    "type": "miscellaneous",
-    "item": [
-        "日常使用`Sublime Text`/`Chrome` 进行开发",
-        "能够流畅阅读英文文档,热爱学习新技术"
-    ]
-  }]
 }

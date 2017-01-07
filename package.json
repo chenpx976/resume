@@ -4,7 +4,8 @@
     "description": "Read resume data from a JSON file and generate a static web page.",
     "main": "gulpfile.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "gulp brs"
     },
     "author": "Joyee Cheung <joyeec9h3@gmail.com>",
     "license": "MIT",

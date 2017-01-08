@@ -14,14 +14,16 @@ block header
       h2= job_description.join("/")
     address
       ul.contact
+        +profile(contact.profile)
+        +education(contact.education)
         +phone(contact.phone)
         +email(contact.email)
         +github(contact.github)
-        +blog(contact.blog)
+        //- +blog(contact.blog)
 
 block content
   article.content.row
-      block education
+      //- block education
       block experience
       block skills
     //- article.column-6.first.column

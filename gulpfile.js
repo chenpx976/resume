@@ -105,7 +105,7 @@ gulp.task('serve', function () {
 });
 
 gulp.task('server', ['build', 'serve']);
-gulp.task('preview', ['build-for-deploy', 'serve']);
+gulp.task('preview', ['build-for-deploy', 'brs']);
 
 /****************** Deploy ****************/
 gulp.task('deploy', ['build-for-deploy'], function() {
@@ -114,4 +114,4 @@ gulp.task('deploy', ['build-for-deploy'], function() {
 });
 
 /****************** Default ****************/
-gulp.task('default', ['server', 'watch']);
+gulp.task('default', ['brs']);
